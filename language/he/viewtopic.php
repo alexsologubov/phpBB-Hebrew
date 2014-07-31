@@ -1,13 +1,12 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
+* viewtopic [Hebrew]
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* @package language
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -59,7 +58,7 @@ $lang = array_merge($lang, array(
 		1	=> 'נערך לאחרונה על ידי %2$s ב %3$s, נערך פעם %1$d בסך הכל.',
 		2	=> 'נערך לאחרונה על ידי %2$s ב %3$s, נערך %1$d פעמים בסך הכל.',
 	),
-	'EMAIL_TOPIC'			=> 'Email topic',
+	'EMAIL_TOPIC'			=> 'שלח דואר אלקטרוני לחבר',
 	'ERROR_NO_ATTACHMENT'	=> 'הקובץ המצורף שנבחר לא קיים יותר.',
 
 	'FILE_NOT_FOUND_404'	=> 'הקובץ <strong>%s</strong> לא קיים.',
@@ -118,6 +117,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d הודעות',
 	),
 	'VIEW_UNREAD_POST'		=> 'הודעה ראשונה שלא נקראה',
+	'VISIT_WEBSITE'			=> 'אתר',
 	'VOTE_SUBMITTED'		=> 'הצבעתך נקלטה.',
 	'VOTE_CONVERTED'		=> 'שינוי הצבעות לא נתמך בסקרים שהומרו.',
 ));

@@ -1,13 +1,12 @@
 <?php
-/**
+/** 
 *
-* This file is part of the phpBB Forum Software package.
+* acp_search [Hebrew]
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
+* @package language
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -60,6 +59,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'מילים המכילות לא יותר מכמות האותיות המצוינת יכנסו לאינדקס החיפוש. אתה או הספק שלך יכולים לשנות את הגדרה זו רק על ידי שינוי הגדרות ה־mysql.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL.',
+	'FULLTEXT_POSTGRES_TS_NOT_USABLE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL 8.3 and above.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Total number of indexed posts',
 	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL version',
 	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Text search Configuration Profile:',
